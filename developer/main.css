@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Starts Of Navbar */
+
+.main {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #2f2f2f;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+.main .pic {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+}
+.others {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: #ffffff;
+  font-family: "Poppins";
+}
+.main .others button {
+  padding: 15px 30px;
+  background: #f59b00;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.bar {
+  display: none;
+}
+.smallbar {
+  top: 0;
+  right: -100%;
+  transition: 0.5s;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+  background: #c2a006;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: none;
+  }
+  .bar {
+    display: block;
+  }
+}
+/* Ending Of Navbar */
+
+/* PART2   */
+
+/* Starts Of Section 1 */
+.joxa1 {
+  padding-top: 120px;
+  width: 100%;
+  height: 100vh;
+  background-color: #2f2f2f;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+.joxa1left {
+  margin-top: 150px;
+}
+.joxa1left h2 {
+  color: #f59b00;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.joxa1left h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 130%;
+  /* or 79px */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.joxa1left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 25px;
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.joxa1left button {
+  position: absolute;
+  width: 140px;
+  height: 49px;
+  margin-top: 35px;
+  /* left: 226px; */
+  /* bottom: 10; */
+
+  background: #f59b00;
+  border-radius: 5px;
+}
+/*  Ending Of Section 1 */
+
+/* part2 */
+
+.joxa2 {
+  width: 100%;
+}
+.joxa3 {
+  display: flex;
+  margin-top: 130px;
+  justify-content: center;
+  gap: 130px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #2f2f2f;
+}
+.joxa5cards {
+  display: flex;
+  gap: 37px;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+/* PART3 */
+.joxa7 {
+  width: 100%;
+  margin-top: 130px;
+  display: flex;
+  gap: 84px;
+  justify-content: center;
+  align-items: center;
+}
+.joxa7right h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #f59b00;
+}
+.joxa7right h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #2f2f2f;
+  margin-top: 10px;
+}
+.joxa7right p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #2f2f2f;
+  opacity: 0.9;
+  margin-top: 24px;
+}
+.joxa7right button {
+  width: 134px;
+  height: 49px;
+  left: 913px;
+  top: 1937px;
+  background: #f59b00;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.joxa8 {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.joxa9 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #2f2f2f;
+  margin-top: 130px;
+}
+.joxa9 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 25px;
+  text-transform: capitalize;
+  color: #2f2f2f;
+  opacity: 0.9;
+}
+.joxa9 img {
+  margin-top: 60px;
+}
+.joxa8 img {
+  margin-top: 80px;
+}
+
+/* PART 4 */
+.joxabig {
+  width: 100%;
+  height: 100vh;
+  margin-top: 150PX;
+}
+.joxa11 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: #2f2f2ff2;
+  max-width: 1100px;
+  width: 90%;
+  margin: auto;
+  padding: 0;
+}
+.joxa13 {
+  /* margin-bottom: 105px; */
+  padding: 100px 30px;
+  width: 500px;
+}
+.joxa13 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 140%;
+  /* or 43px */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.joxa14 {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  outline: none;
+}
+.joxa14 input {
+  width: 100%;
+  margin-top: 45px;
+  gap: 50px;
+  background-color: #2f2f2f;
+  height: 40px;
+  border-radius: 10px;
+}
+::placeholder {
+  padding-left: 25px;
+}
+.joxa15 input {
+  margin-top: 30px;
+  background-color: #2f2f2f;
+  height: 40px;
+  border-radius: 10px;
+  width: 500px;
+}
+.joxa16 {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 55px;
+}
+.joxa16 button {
+  padding: 15px 30px;
+  background-color: #f59b00;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+} 
+.joxa20{
+  display: flex;
+  gap: 40px;
+  justify-content: center;  
+}   
+.joxafooter{
+  margin-top: 135px;
+  background: rgba(47, 47, 47, 0.92);
+  width: 100%;
+  height: 368px;
+} 
+.joxa21{
+  display: flex;
+  padding-top: 100px;
+  justify-content:center ;
+  gap: 100px;
+} 
+.joxa22 p{
+ color: #8e8a8a;
+ margin-top: 15px;
+}  
+.joxa22 input{
+  width:264px;
+  margin-top: 15px;
+  gap: 50px;
+  background-color: #2f2f2f;
+  height: 30px;
+  border-radius: 5px;
+}     
+.joxa22 button{
+  padding: 10px 20px;
+  width: 120px;
+  height: 39px; 
+  background: #F59B00;
+  border-radius: 4px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+margin-top: 15px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}      
+ 
